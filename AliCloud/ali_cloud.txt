@@ -1,0 +1,17 @@
+vi /etc/zypp/repos.d/openSUSE-42.3-Oss-0.repo
+vi /etc/zypp/repos.d/openSUSE-42.3-Non-Oss-0.repo
+vi /etc/zypp/repos.d/openSUSE-42.3-Update-Oss-0.repo
+vi /etc/zypp/repos.d/openSUSE-42.3-Update-Non-Oss-0.repo
+
+https://en.opensuse.org/Package_repositories
+
+baseurl=http://download.opensuse.org/distribution/leap/42.3/repo/non-oss/
+baseurl=http://download.opensuse.org/distribution/leap/42.3/repo/oss/
+baseurl=http://download.opensuse.org/update/leap/42.3/non-oss/
+baseurl=http://download.opensuse.org/update/leap/42.3/oss/
+
+zypper in docker
+docker run -d -p 1234:80 amkrivenya/dockerhttp
+
+# Add 1234 on firewall at AliCloud - My Simple Application Server - Security - Firewall
+
