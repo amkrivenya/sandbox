@@ -1,3 +1,6 @@
+
+https://swas.console.aliyun.com/?spm=a3c0i.11085497.2328191340.4.59953f66nxZNYV#/server/9a5d92328d474a248efaa4d638b8fc14/eu-central-1/dashboard
+
 vi /etc/zypp/repos.d/openSUSE-42.3-Oss-0.repo
 vi /etc/zypp/repos.d/openSUSE-42.3-Non-Oss-0.repo
 vi /etc/zypp/repos.d/openSUSE-42.3-Update-Oss-0.repo
@@ -15,3 +18,4 @@ docker run -d -p 1234:80 amkrivenya/dockerhttp
 
 # Add 1234 on firewall at AliCloud - My Simple Application Server - Security - Firewall
 
+http://47.254.128.227:1234/
