@@ -38,14 +38,14 @@ for line in vfFile:
         amk[ifrMax + 1 - i][ifr] = 0
         i=i+1
 
-    time.sleep(1)
-    os.system('cls||clear')
-    print(line)
+#    time.sleep(1)
+#    os.system('cls||clear')
+#    print(line)
 
-    for i in range(len(amk)):
-      for j in range(len(amk[i])):
-        print ("%2d" % amk[i][j],end =" ")
-      print(i)
+#    for i in range(len(amk)):
+#      for j in range(len(amk[i])):
+#        print ("%2d" % amk[i][j],end =" ")
+#      print(i)
 
 
 for i in range(9):

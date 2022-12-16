@@ -5,7 +5,8 @@ import array
 vcFile='05_in.txt'
 vfFile = open(vcFile, mode="r")
 
-amk=["",""]
+#amk=["",""]
+amk=[[0 for j in range(9)] for i in range(45)]
 
 l = 8
 for line in vfFile:
