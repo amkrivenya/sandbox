@@ -7,7 +7,7 @@ vfFile = open(vcFile, mode="r")
 vCurrent=0
 
 for line in vfFile:
-          
+  line = line.replace('\r', '')            
   ifFound=0
 
   i=0

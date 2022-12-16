@@ -7,7 +7,7 @@ vfFile = open(vcFile, mode="r")
 vCurrent=0
 
 for line in vfFile:
-
+  line = line.replace('\r', '')  
   i = line.find("-")
   vElf1 = int( line[0:i] )
 

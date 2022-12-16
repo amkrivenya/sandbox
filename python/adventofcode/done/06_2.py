@@ -1,9 +1,8 @@
 #!/usr/bin/python
 import os
 import time
-from typing import List
 
-def srch(data: List[chr]):
+def srch(data):
   vFlag = 0
   for i in range (len(data)):
     for j in range (i+1,len(data)):
@@ -12,6 +11,7 @@ def srch(data: List[chr]):
   return vFlag
 
 vSize = 14
+
 #code = ["","","","","","","","","","","","","","",]
 code = [""] * vSize
 

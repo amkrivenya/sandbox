@@ -1,5 +1,9 @@
 #!/usr/bin/python
 import os
+from datetime import datetime
+
+print(datetime.now())
+vTime = datetime.now()
 
 # Procedure read file by line until "$cd name"+"path=parent"
 #   and then countsize until "cd another folder" found
@@ -12,7 +16,7 @@ def folder_scan(name, parent):
   path=''
 
   for line in vProcFile:
-
+    line = line.replace('\r', '')  
     # If found command "cd target folder" - switch on counting
     if line.find('$ cd '+name) >= 0 and parent == path:
       vOn=1
@@ -60,7 +64,7 @@ path=''
 
 
 for line in vfFile:
-  
+  line = line.replace('\r', '')    
   # If first digisymbolt in line digit - add whole number to counter of folder size
   if line[0] >= "0" and line[0] <= "9":
     vFldrSize = vFldrSize + int( line[ : line.find(" ") ])
@@ -109,3 +113,6 @@ print (vBetterSize);
 
 vfFile.close()
 vfFileOut.close()
+print(datetime.now())
+vTime = datetime.now() - vTime
+print(vTime)
