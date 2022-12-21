@@ -52,5 +52,5 @@ for row in range(len(tree)):
         can_see = [0]*4
 
 print('Highest scenic score:', can_see_max)
-print('Time to execute:', datetime.now() - start_time)
+print('Time to execute:', str(datetime.now() - start_time))
 
