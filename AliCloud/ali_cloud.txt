@@ -1,5 +1,6 @@
 
 https://swas.console.aliyun.com/?spm=a3c0i.11085497.2328191340.4.59953f66nxZNYV#/server/9a5d92328d474a248efaa4d638b8fc14/eu-central-1/dashboard
+https://swas.console.aliyun.com/?spm=a3c0i.11085497.2328191340.4.59953f66nxZNYV&accounttraceid=e8997e7e1f4447c29bc9a1cffb69cefdpyky#/servers
 
 vi /etc/zypp/repos.d/openSUSE-42.3-Oss-0.repo
 vi /etc/zypp/repos.d/openSUSE-42.3-Non-Oss-0.repo
